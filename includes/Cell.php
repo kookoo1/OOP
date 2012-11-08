@@ -14,7 +14,7 @@ class Cell {
     //put your code here
     
     
-    private $_content;
+    protected $_content;
     
     
     public function __construct($content) {

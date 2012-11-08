@@ -32,10 +32,11 @@ class Table {
         echo '<table border="1">'.PHP_EOL;// in de bron code komt deze rows onder elkaar ipv op één lijn!!!!
         
         // here we see the value of the  
+        /*
         echo '<pre>';
         var_dump($this->_rows);die;
         echo '</pre>';
-        
+        */
         foreach ($this->_rows as $row) {
             
             echo '<tr>'.PHP_EOL;
